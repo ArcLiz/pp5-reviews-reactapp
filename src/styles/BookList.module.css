@@ -1,0 +1,53 @@
+.bookItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.bookItem:hover {
+  background-color: #f0f0f0;
+  border-color: #c3c3c3;
+}
+
+.bookLink {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  width: 100%;
+}
+
+.bookImageContainer {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.bookImage {
+  width: 70px;
+  height: auto;
+}
+
+.bookDetails {
+  flex: 1;
+}
+
+.bookDetails h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.bookDetails p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.bookComment {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.reviewsBadge {
+  background-color: #007bff;
+  color: #fff;
+  margin-left: 5px;
+}

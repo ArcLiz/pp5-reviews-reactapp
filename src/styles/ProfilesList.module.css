@@ -1,0 +1,15 @@
+.buttonStyle {
+  background-color: #e75480;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  border-color: #d84d78;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.buttonStyle:hover {
+  background-color: #d84d78;
+}
+
+.buttonStyle:active {
+  background-color: #c8446d;
+}
